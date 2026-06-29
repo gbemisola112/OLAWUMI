@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Styles specific to the Contact section */
+#contact .card {
+  border-radius: 0.75rem;
+}
+.container{
+  /* max-width: 100px; */
+  /* max-height: 1000px; */
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+#contact .form-label {
+  font-weight: 600;
+}
+
+#contact .form-control:focus {
+  box-shadow: 0 0 0 0.15rem rgba(212,163,115,0.2);
+  border-color: #d4a373;
+}
+
+#contact .btn-primary {
+  background: linear-gradient(90deg,#d4a373,#ab7b4a);
+  border: none;
+}
+
+#formAlert {
+  transition: all 0.25s ease;
+}
+
+@media (max-width: 576px) {
+  #contact .card { padding: 1rem; }
+}
+
+/* Social media links styling */
+.social-link {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+
+.social-link:hover {
+  transform: translateY(-5px);
+  color: #d4a373;
+}
+
+.social-link i {
+  transition: all 0.3s ease;
+}
+
+.social-link:hover i {
+  filter: drop-shadow(0 0 8px rgba(212, 163, 115, 0.5));
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olawumi Fashion Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="collection.css" />
+    <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm" style="height: 80px;">
+        <div class="container">
+                <a class="navbar-brand d-flex align-items-center fw-bold" href="#home">
+                <img src="image/OF rbg.png" alt="Olawumi Fashion logo" class="me-1" style="height:42px; width:42px; object-fit:contain;" />
+                <span>Olawumi Fashion</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/showcase.html">Showcase</a></li>
+                    <li class="nav-item"><a class="nav-link" href="collection.html">Collection</a></li>
+                    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero d-flex align-items-center">
+            <div class="overlay"></div>
+            <div class="container text-center hero-content text-white">
+                <p class="eyebrow text-uppercase mb-3">Premium fashion design</p>
+                <h1 class="display-5 fw-bold">Dauda Sekinat Olawumi</h1>
+                <p class="lead mb-4">Creating premium male and female outfits with creativity, elegance, and timeless style.</p>
+                <div class="d-flex justify-content-center gap-3 flex-wrap">
+                    <a href="#collection" class="btn btn-primary btn-lg">View Collection</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg">Book a Consultation</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h2 class="section-title">About the Atelier</h2>
+                        <p class="text-muted">Olawumi Studio combines craftsmanship, modern aesthetics, and bold patterns to deliver elegant fashion for every occasion. We design with attention to detail, premium materials, and a tailored fit that celebrates your personality.</p>
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-2"><strong>Modern tailoring</strong> for both men and women</li>
+                            <li class="mb-2"><strong>Custom collections</strong> inspired by culture and luxury</li>
+                            <li class="mb-2"><strong>Expert styling</strong> from consultation to final look</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ratio ratio-16x9 rounded overflow-hidden shadow-sm">
+                            <img src="image/agbada.jpeg" alt="Fashion atelier" class="w-75 h-75 object-fit-cover" id="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="showcase" class="py-5">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <div>
+                        <h2 class="section-title">Featured Atelier</h2>
+                        <p class="text-muted mb-0">A rotating showcase of signature collections and seasonal highlights.</p>
+                    </div>
+                </div>
+                <div id="fashionCarousel" class="carousel slide shadow-sm rounded" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#fashionCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#fashionCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#fashionCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active">
+                            <img src="/Image/pink.jpeg" class="d-block w-75 h-75" alt="Luxury eveningwear" />
+                            <div class="carousel-caption d-none d-md-block text-start">
+                                <h5>Luxury Eveningwear</h5>
+                                <p>Fine silhouettes, luxurious fabrics, and elegant finishes for special events.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Image/bgown.jpeg" class="d-block w-100" alt="Tailored menswear" />
+                            <div class="carousel-caption d-none d-md-block text-start">
+                                <h5>Tailored Menswear</h5>
+                                <p>Modern menswear designed with sharp lines, comfort, and timeless appeal.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1600&q=80" class="d-block w-100" alt="Cultural inspired style" />
+                            <div class="carousel-caption d-none d-md-block text-start">
+                                <h5>Cultural Inspiration</h5>
+                                <p>Unique prints and textures inspired by tradition, made for modern wear.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#fashionCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#fashionCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="collection" class="py-5 bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Our Fashion Collection</h2>
+                    <p class="text-muted">Explore standout looks from our latest collection, styled for glamour and comfort.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card shadow-sm border-0 h-100">
+                            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Female Dress" />
+                            <div class="card-body">
+                                <h5 class="card-title">Female Dress</h5>
+                                <p class="card-text text-muted">Elegant gowns with refined details for evening and bridal styling.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card shadow-sm border-0 h-100">
+                            <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Male Outfit" />
+                            <div class="card-body">
+                                <h5 class="card-title">Male Outfit</h5>
+                                <p class="card-text text-muted">Tailored menswear that blends structure and elegance for any occasion.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card shadow-sm border-0 h-100">
+                            <img src="image/red.jpeg" class="card-img-top" alt="Traditional Style" />
+                            <div class="card-body">
+                                <h5 class="card-title">Traditional Style</h5>
+                                <p class="card-text text-muted">Culturally inspired outfits with premium tailoring and modern comfort.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card shadow-sm border-0 h-100">
+                            <img src="Image/Model.jpeg" class="card-img-top" alt="Luxury Fashion" />
+                            <div class="card-body">
+                                <h5 class="card-title">Luxury Fashion</h5>
+                                <p class="card-text text-muted">High-end designs crafted from luxury fabrics for bold, statement looks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Design Services</h2>
+                    <p class="text-muted">Personalized services tailored to your style, fit, and event needs.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm p-4">
+                            <h4>Custom Tailoring</h4>
+                            <p class="text-muted mb-0">Made-to-measure garments with precise tailoring and luxury finishes.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm p-4">
+                            <h4>Style Consultation</h4>
+                            <p class="text-muted mb-0">Expert styling advice for wardrobes, events, and signature fashion moments.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm p-4">
+                            <h4>Wardrobe Capsule</h4>
+                            <p class="text-muted mb-0">Build a versatile wardrobe with curated looks designed to elevate everyday style.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-5 bg-dark text-white">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <h2 class="section-title text-white">Ready to design your next look?</h2>
+                        <p class="text-white-75">Get in touch for bespoke fashion design, tailoring appointments, and custom collections. Use the form to request consultations or send a brief about your project.</p>
+                        <p class="text-white-50">Or email us at <a href="mailto:sekinatdauda060@gmail.com" class="text-white-50">@olawumifashion.com</a></p>
+                    </div>
+                    <!-- <div class="col-lg-6">
+                        <div class="card bg-white text-dark shadow-sm">
+                            <div class="card-body">
+                                <form id="contactForm" novalidate>
+                                    <div id="formAlert" class="alert d-none" role="alert"></div>
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Full name</label>
+                                        <input type="text" class="form-control" id="name" name="name" required />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="email" name="email" required />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <button type="submit" class="btn btn-primary">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer bg-black text-white py-4">
+        <div class="container text-center">
+            <p class="mb-1">©Olawumi Fashion. Crafted for premium fashion experiences.</p>
+            <small class="text-white-50">Follow us on social media for new collections and styling inspiration.</small>
+        </div>
+    </footer>
+
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

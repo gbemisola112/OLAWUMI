@@ -1,5 +1,5 @@
 .service-hero {
-  background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("image/bgown.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("Image/bgown.jpeg");
 }
 .service-step h5 {
   margin-bottom: 0.75rem;
